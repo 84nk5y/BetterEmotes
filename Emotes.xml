@@ -36,14 +36,13 @@
                 <Layers>
                     <Layer level="BACKGROUND">
                         <Texture setAllPoints="true">
-                            <Color r="0" g="0" b="0" a="0.85"/>
+                            <Color r="0" g="0" b="0" a="0.65"/>
                         </Texture>
                     </Layer>
                 </Layers>
                 <Scripts>
                     <OnEnter>
-                        local p = self:GetParent();
-                        if p.hideTimer then p.hideTimer:Cancel() end
+                        self:GetParent():OnEnter();
                     </OnEnter>
                     <OnLeave>
                         self:GetParent():OnLeave();

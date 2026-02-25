@@ -1,6 +1,8 @@
 local emoteTokens = {
-    "bow", "cheer", "cry", "dance", "flirt", "hug", "kiss", "laugh",
-    "point", "salute", "shy", "sit", "sleep", "thank", "wave", "yes"
+    "thank", "bow", "clap", "point",
+    "wave", "salute", "cheer", "laugh",
+    "dance", "hug", "kiss", "flirt",
+    "sit", "sleep", "cry", "shy",
 }
 
 EmotesButtonMixin = {}
