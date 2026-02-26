@@ -14,7 +14,7 @@
     <Button name="EmotesMainButton" parent="UIParent" mixin="EmotesButtonMixin">
         <Size x="28" y="28"/>
         <Anchors>
-            <Anchor point="LEFT" relativeTo="QuickJoinToastButton" relativePoint="RIGHT" x="2" y="0"/>
+            <Anchor point="BOTTOM" relativeTo="QuickJoinToastButton" relativePoint="TOP" x="0" y="2"/>
         </Anchors>
         <Layers>
             <Layer level="ARTWORK">
