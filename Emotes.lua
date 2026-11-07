@@ -1,9 +1,10 @@
-local emoteTokens = {
+local EMOTE_TOKENS = {
     "thank", "bow", "clap", "point",
     "wave", "salute", "cheer", "laugh",
     "dance", "hug", "kiss", "flirt",
     "sit", "sleep", "cry", "shy",
 }
+
 
 EmotesButtonMixin = {}
 
@@ -30,7 +31,7 @@ function EmotesButtonMixin:PopulateGrid()
 
     for row = 1, gridSize do
         for col = 1, gridSize do
-            local token = emoteTokens[index]
+            local token = EMOTE_TOKENS[index]
             if token then
                 local btn = self.buttonPool:Acquire()
                 btn.emoteToken = token
